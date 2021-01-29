@@ -3,7 +3,7 @@ const router = express.Router()
 
 const getProfile = (req, res) => {
     const profile = {
-        message: `A Rule Validation API`,
+        message: `My Rule-Validation API`,
         status: `success`,
         data: {
           name: `Oluwajoba Fashogbon`,
